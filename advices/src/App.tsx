@@ -16,7 +16,8 @@ function App() {
     
     const [text] = useTypewriter({
       words: [advice],
-      delaySpeed: 6000
+      loop: true,
+      delaySpeed: 2000,
     })
 
 
